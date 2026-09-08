@@ -11,6 +11,11 @@ A real-time, enterprise-grade cloud data engineering and lakehouse analytics sol
 
 ---
 
+## 📺 Demo Video
+[![Watch the Demo Video](https://img.youtube.com/vi/oSTURVAwRHg/maxresdefault.jpg)](https://youtu.be/oSTURVAwRHg)
+
+---
+
 ## 🚀 Key Features
 
 1. **Medallion Architecture Pipeline**: Multi-layer operational pipeline with strict data isolation across **Bronze** (raw landing & metadata preservation), **Silver** (cleansed, validated & standardized Delta tables), and **Gold** (analytical Star Schema facts & dimensions).
