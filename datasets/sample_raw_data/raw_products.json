@@ -1,0 +1,502 @@
+[
+  {
+    "product_id": "PROD-0001",
+    "product_name": "Wireless Noise-Canceling Headphones",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Wireless",
+    "unit_price": 199.99,
+    "cost_price": 110.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0002",
+    "product_name": "Ultra-HD Smart Monitor 27-inch",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Ultra-HD",
+    "unit_price": 349.99,
+    "cost_price": 210.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0003",
+    "product_name": "Mechanical Gaming Keyboard",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Mechanical",
+    "unit_price": 89.99,
+    "cost_price": 45.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0004",
+    "product_name": "Ergonomic Bluetooth Mouse",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Ergonomic",
+    "unit_price": 39.99,
+    "cost_price": 18.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0005",
+    "product_name": "Smart Watch Series X",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Smart",
+    "unit_price": 279.99,
+    "cost_price": 150.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0006",
+    "product_name": "Portable Bluetooth Speaker",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Portable",
+    "unit_price": 59.99,
+    "cost_price": 25.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0007",
+    "product_name": "HD Webcam 1080p",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "HD",
+    "unit_price": 49.99,
+    "cost_price": 20.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0008",
+    "product_name": "Wireless Charging Pad",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Wireless",
+    "unit_price": 29.99,
+    "cost_price": 10.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0009",
+    "product_name": "Noise Isolating Earbuds",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "Noise",
+    "unit_price": 34.99,
+    "cost_price": 12.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0010",
+    "product_name": "USB-C Hub Multiport Adapter",
+    "category_id": 101,
+    "category_name": "Electronics",
+    "brand": "USB-C",
+    "unit_price": 44.99,
+    "cost_price": 16.0,
+    "supplier": "TechCorp"
+  },
+  {
+    "product_id": "PROD-0011",
+    "product_name": "Organic Cotton Crewneck T-Shirt",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Organic",
+    "unit_price": 24.99,
+    "cost_price": 8.5,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0012",
+    "product_name": "Slim Fit Denim Jeans",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Slim",
+    "unit_price": 59.99,
+    "cost_price": 22.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0013",
+    "product_name": "Waterproof Winter Jacket",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Waterproof",
+    "unit_price": 129.99,
+    "cost_price": 55.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0014",
+    "product_name": "Classic Leather Belt",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Classic",
+    "unit_price": 34.99,
+    "cost_price": 12.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0015",
+    "product_name": "Running Performance Shorts",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Running",
+    "unit_price": 29.99,
+    "cost_price": 10.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0016",
+    "product_name": "Merino Wool Sweater",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Merino",
+    "unit_price": 79.99,
+    "cost_price": 30.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0017",
+    "product_name": "Casual Canvas Sneakers",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Casual",
+    "unit_price": 64.99,
+    "cost_price": 25.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0018",
+    "product_name": "Breathable Athletic Socks (3-Pack)",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Breathable",
+    "unit_price": 14.99,
+    "cost_price": 4.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0019",
+    "product_name": "Formal Dress Shirt",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Formal",
+    "unit_price": 49.99,
+    "cost_price": 18.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0020",
+    "product_name": "Polarized Sunglasses",
+    "category_id": 102,
+    "category_name": "Apparel",
+    "brand": "Polarized",
+    "unit_price": 39.99,
+    "cost_price": 12.0,
+    "supplier": "FashionHub"
+  },
+  {
+    "product_id": "PROD-0021",
+    "product_name": "Stainless Steel Espresso Machine",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Stainless",
+    "unit_price": 299.99,
+    "cost_price": 160.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0022",
+    "product_name": "Non-Stick Ceramic Cookware Set",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Non-Stick",
+    "unit_price": 149.99,
+    "cost_price": 70.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0023",
+    "product_name": "Robot Vacuum Cleaner",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Robot",
+    "unit_price": 249.99,
+    "cost_price": 120.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0024",
+    "product_name": "High-Speed Countertop Blender",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "High-Speed",
+    "unit_price": 99.99,
+    "cost_price": 42.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0025",
+    "product_name": "Air Fryer Max XL 5.8-Quart",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Air",
+    "unit_price": 119.99,
+    "cost_price": 55.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0026",
+    "product_name": "Electric Programmable Kettle",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Electric",
+    "unit_price": 39.99,
+    "cost_price": 15.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0027",
+    "product_name": "Memory Foam Pillows (Set of 2)",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Memory",
+    "unit_price": 49.99,
+    "cost_price": 18.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0028",
+    "product_name": "Smart LED Desk Lamp",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Smart",
+    "unit_price": 34.99,
+    "cost_price": 12.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0029",
+    "product_name": "French Press Coffee Maker",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "French",
+    "unit_price": 27.99,
+    "cost_price": 9.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0030",
+    "product_name": "Automatic Bread Maker Machine",
+    "category_id": 103,
+    "category_name": "Home & Kitchen",
+    "brand": "Automatic",
+    "unit_price": 139.99,
+    "cost_price": 65.0,
+    "supplier": "HomePlus"
+  },
+  {
+    "product_id": "PROD-0031",
+    "product_name": "Hydrating Facial Serum",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Hydrating",
+    "unit_price": 34.99,
+    "cost_price": 10.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0032",
+    "product_name": "Sunscreen SPF 50 Broad Spectrum",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Sunscreen",
+    "unit_price": 19.99,
+    "cost_price": 5.5,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0033",
+    "product_name": "Professional Hair Dryer",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Professional",
+    "unit_price": 79.99,
+    "cost_price": 32.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0034",
+    "product_name": "Vitamin C Brightening Moisturizer",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Vitamin",
+    "unit_price": 28.99,
+    "cost_price": 8.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0035",
+    "product_name": "Sonic Electric Toothbrush",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Sonic",
+    "unit_price": 59.99,
+    "cost_price": 22.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0036",
+    "product_name": "Organic Argan Hair Oil",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Organic",
+    "unit_price": 22.99,
+    "cost_price": 6.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0037",
+    "product_name": "Exfoliating Scrub Lotion",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Exfoliating",
+    "unit_price": 18.99,
+    "cost_price": 4.5,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0038",
+    "product_name": "Luxury Cologne & Fragrance Spray",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Luxury",
+    "unit_price": 89.99,
+    "cost_price": 35.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0039",
+    "product_name": "Revitalizing Eye Cream",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Revitalizing",
+    "unit_price": 32.99,
+    "cost_price": 9.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0040",
+    "product_name": "Natural Clay Face Mask",
+    "category_id": 104,
+    "category_name": "Beauty & Care",
+    "brand": "Natural",
+    "unit_price": 21.99,
+    "cost_price": 5.0,
+    "supplier": "GlowLab"
+  },
+  {
+    "product_id": "PROD-0041",
+    "product_name": "Non-Slip Yoga Mat with Strap",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Non-Slip",
+    "unit_price": 29.99,
+    "cost_price": 11.0,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0042",
+    "product_name": "Adjustable Dumbbell Set 50lbs",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Adjustable",
+    "unit_price": 189.99,
+    "cost_price": 95.0,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0043",
+    "product_name": "Insulated Stainless Water Bottle",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Insulated",
+    "unit_price": 24.99,
+    "cost_price": 7.0,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0044",
+    "product_name": "Resistance Exercise Bands Set",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Resistance",
+    "unit_price": 19.99,
+    "cost_price": 5.0,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0045",
+    "product_name": "Trail Running Hydration Backpack",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Trail",
+    "unit_price": 69.99,
+    "cost_price": 28.0,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0046",
+    "product_name": "GPS Bike Computer Tracker",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "GPS",
+    "unit_price": 149.99,
+    "cost_price": 68.0,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0047",
+    "product_name": "Padded Weightlifting Gloves",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Padded",
+    "unit_price": 17.99,
+    "cost_price": 4.5,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0048",
+    "product_name": "High-Density Foam Roller",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "High-Density",
+    "unit_price": 22.99,
+    "cost_price": 6.5,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0049",
+    "product_name": "Digital Jump Rope with Counter",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Digital",
+    "unit_price": 16.99,
+    "cost_price": 4.0,
+    "supplier": "FitActive"
+  },
+  {
+    "product_id": "PROD-0050",
+    "product_name": "Compact Folding Treadmill",
+    "category_id": 105,
+    "category_name": "Sports & Fitness",
+    "brand": "Compact",
+    "unit_price": 449.99,
+    "cost_price": 220.0,
+    "supplier": "FitActive"
+  }
+]

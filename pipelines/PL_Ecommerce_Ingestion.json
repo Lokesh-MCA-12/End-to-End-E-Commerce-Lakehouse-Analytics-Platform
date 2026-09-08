@@ -1,0 +1,101 @@
+{
+  "name": "PL_Ecommerce_Ingestion",
+  "properties": {
+    "description": "Fabric Data Factory Orchestration Pipeline for End-to-End E-Commerce Lakehouse Analytics Platform",
+    "activities": [
+      {
+        "name": "Ingest_Bronze_Customers",
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "01_ingest_customers"
+        }
+      },
+      {
+        "name": "Ingest_Bronze_Products",
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "02_ingest_products"
+        }
+      },
+      {
+        "name": "Ingest_Bronze_Orders",
+        "type": "TridentNotebook",
+        "typeProperties": {
+          "notebookId": "03_ingest_orders"
+        }
+      },
+      {
+        "name": "Transform_Silver_Customers",
+        "type": "TridentNotebook",
+        "dependsOn": [
+          { "activity": "Ingest_Bronze_Customers", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookId": "04_transform_customers"
+        }
+      },
+      {
+        "name": "Transform_Silver_Products",
+        "type": "TridentNotebook",
+        "dependsOn": [
+          { "activity": "Ingest_Bronze_Products", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookId": "05_transform_products"
+        }
+      },
+      {
+        "name": "Transform_Silver_Orders",
+        "type": "TridentNotebook",
+        "dependsOn": [
+          { "activity": "Ingest_Bronze_Orders", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookId": "06_transform_orders"
+        }
+      },
+      {
+        "name": "Transform_Silver_Sales",
+        "type": "TridentNotebook",
+        "dependsOn": [
+          { "activity": "Transform_Silver_Customers", "dependencyConditions": ["Succeeded"] },
+          { "activity": "Transform_Silver_Products", "dependencyConditions": ["Succeeded"] },
+          { "activity": "Transform_Silver_Orders", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookId": "07_transform_sales"
+        }
+      },
+      {
+        "name": "Build_Gold_Dimensions",
+        "type": "TridentNotebook",
+        "dependsOn": [
+          { "activity": "Transform_Silver_Sales", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookId": "08_build_dimensions"
+        }
+      },
+      {
+        "name": "Build_Gold_Fact_Sales",
+        "type": "TridentNotebook",
+        "dependsOn": [
+          { "activity": "Build_Gold_Dimensions", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookId": "09_build_fact_sales"
+        }
+      },
+      {
+        "name": "Execute_Data_Quality_Framework",
+        "type": "TridentNotebook",
+        "dependsOn": [
+          { "activity": "Build_Gold_Fact_Sales", "dependencyConditions": ["Succeeded"] }
+        ],
+        "typeProperties": {
+          "notebookId": "10_data_quality"
+        }
+      }
+    ]
+  }
+}

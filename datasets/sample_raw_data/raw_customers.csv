@@ -1,0 +1,501 @@
+customer_id,first_name,last_name,email,gender,city,state,country,registration_date,customer_segment
+CUST-00001,David,Johnson,david.johnson1@example.com,Male,New York,NY,USA,2025-05-21,Corporate
+CUST-00002,John,Lopez,john.lopez2@example.com,Male,Los Angeles,CA,USA,2025-12-13,VIP
+CUST-00003,James,Smith,james.smith3@example.com,Male,Los Angeles,CA,USA,2025-04-22,Consumer
+CUST-00004,William,Brown,william.brown4@example.com,Female,Toronto,ON,Canada,2025-11-29,Corporate
+CUST-00005,Linda,Martinez,linda.martinez5@example.com,Male,Phoenix,AZ,USA,2025-01-04,VIP
+CUST-00006,Jennifer,Jones,jennifer.jones6@example.com,Female,Chicago,IL,USA,2025-04-21,Consumer
+CUST-00007,Mary,Miller,mary.miller7@example.com,Female,Los Angeles,CA,USA,2025-07-03,Home Office
+CUST-00008,James,Lopez,james.lopez8@example.com,Male,San Diego,CA,USA,2025-10-02,VIP
+CUST-00009,Mary,Rodriguez,mary.rodriguez9@example.com,Female,Phoenix,AZ,USA,2025-11-18,Corporate
+CUST-00010,Barbara,Johnson,barbara.johnson10@example.com,Male,New York,NY,USA,2025-12-05,Home Office
+CUST-00011,Mary,Brown,mary.brown11@example.com,Female,Los Angeles,CA,USA,2025-07-14,VIP
+CUST-00012,David,Garcia,david.garcia12@example.com,Female,Chicago,IL,USA,2025-07-09,Corporate
+CUST-00013,David,Jones,david.jones13@example.com,Male,Toronto,ON,Canada,2025-12-16,Corporate
+CUST-00014,William,Lopez,william.lopez14@example.com,Female,Houston,TX,USA,2025-03-25,VIP
+CUST-00015,Robert,Hernandez,robert.hernandez15@example.com,Male,Toronto,ON,Canada,2025-10-13,Home Office
+CUST-00016,James,Brown,james.brown16@example.com,Female,New York,NY,USA,2025-06-11,Home Office
+CUST-00017,Mary,Brown,mary.brown17@example.com,Male,San Jose,CA,USA,2025-06-11,VIP
+CUST-00018,Michael,Hernandez,michael.hernandez18@example.com,Female,San Diego,CA,USA,2025-03-15,Corporate
+CUST-00019,Patricia,Lopez,patricia.lopez19@example.com,Female,Dallas,TX,USA,2025-10-03,VIP
+CUST-00020,Elizabeth,Miller,elizabeth.miller20@example.com,Male,Philadelphia,PA,USA,2025-04-23,VIP
+CUST-00021,Mary,Smith,mary.smith21@example.com,Male,Los Angeles,CA,USA,2025-03-20,VIP
+CUST-00022,Elizabeth,Johnson,elizabeth.johnson22@example.com,Female,San Antonio,TX,USA,2025-07-15,Home Office
+CUST-00023,William,Smith,william.smith23@example.com,Female,London,ENG,UK,2025-02-28,Home Office
+CUST-00024,Mary,Jones,mary.jones24@example.com,Female,San Antonio,TX,USA,2025-03-22,Consumer
+CUST-00025,Barbara,Lopez,barbara.lopez25@example.com,Male,Phoenix,AZ,USA,2025-09-14,Consumer
+CUST-00026,David,Jones,david.jones26@example.com,Male,London,ENG,UK,2025-09-17,Corporate
+CUST-00027,Jennifer,Williams,jennifer.williams27@example.com,Male,Dallas,TX,USA,2025-09-29,Home Office
+CUST-00028,Linda,Smith,linda.smith28@example.com,Female,Los Angeles,CA,USA,2025-07-05,Corporate
+CUST-00029,James,Brown,james.brown29@example.com,Male,San Jose,CA,USA,2025-02-10,VIP
+CUST-00030,Mary,Rodriguez,mary.rodriguez30@example.com,Female,Chicago,IL,USA,2025-03-07,Corporate
+CUST-00031,Robert,Rodriguez,robert.rodriguez31@example.com,Male,San Jose,CA,USA,2025-08-05,Corporate
+CUST-00032,Barbara,Jones,barbara.jones32@example.com,Female,San Antonio,TX,USA,2025-12-10,VIP
+CUST-00033,William,Davis,william.davis33@example.com,Male,Los Angeles,CA,USA,2025-05-07,Consumer
+CUST-00034,Jennifer,Smith,jennifer.smith34@example.com,Male,San Jose,CA,USA,2025-10-11,Corporate
+CUST-00035,James,Johnson,james.johnson35@example.com,Male,Toronto,ON,Canada,2025-11-20,Corporate
+CUST-00036,Mary,Smith,mary.smith36@example.com,Male,Philadelphia,PA,USA,2025-02-06,Home Office
+CUST-00037,David,Davis,david.davis37@example.com,Male,Houston,TX,USA,2025-10-04,VIP
+CUST-00038,Patricia,Davis,patricia.davis38@example.com,Male,San Antonio,TX,USA,2025-04-08,Consumer
+CUST-00039,David,Miller,david.miller39@example.com,Female,Philadelphia,PA,USA,2025-08-05,VIP
+CUST-00040,Barbara,Smith,barbara.smith40@example.com,Male,London,ENG,UK,2025-12-01,Consumer
+CUST-00041,Michael,Lopez,michael.lopez41@example.com,Male,Philadelphia,PA,USA,2025-02-25,Corporate
+CUST-00042,Patricia,Rodriguez,patricia.rodriguez42@example.com,Female,San Diego,CA,USA,2025-03-13,Corporate
+CUST-00043,Robert,Davis,robert.davis43@example.com,Female,Houston,TX,USA,2025-02-08,Consumer
+CUST-00044,James,Hernandez,james.hernandez44@example.com,Male,Dallas,TX,USA,2025-01-08,Corporate
+CUST-00045,John,Miller,john.miller45@example.com,Male,San Diego,CA,USA,2025-09-04,VIP
+CUST-00046,James,Williams,james.williams46@example.com,Female,San Antonio,TX,USA,2025-01-02,Home Office
+CUST-00047,Linda,Jones,linda.jones47@example.com,Female,San Antonio,TX,USA,2025-12-23,Corporate
+CUST-00048,Patricia,Jones,patricia.jones48@example.com,Male,Houston,TX,USA,2025-01-30,Home Office
+CUST-00049,James,Smith,james.smith49@example.com,Male,San Jose,CA,USA,2025-09-02,Consumer
+CUST-00050,William,Johnson,william.johnson50@example.com,Male,Chicago,IL,USA,2025-02-05,Corporate
+CUST-00051,Michael,Johnson,michael.johnson51@example.com,Male,San Jose,CA,USA,2025-05-07,Consumer
+CUST-00052,Michael,Hernandez,michael.hernandez52@example.com,Female,San Jose,CA,USA,2025-10-17,Home Office
+CUST-00053,Patricia,Hernandez,patricia.hernandez53@example.com,Male,Toronto,ON,Canada,2025-06-10,Home Office
+CUST-00054,Michael,Williams,michael.williams54@example.com,Female,London,ENG,UK,2025-11-27,VIP
+CUST-00055,Jennifer,Johnson,jennifer.johnson55@example.com,Male,New York,NY,USA,2025-08-23,Consumer
+CUST-00056,William,Brown,william.brown56@example.com,Male,Dallas,TX,USA,2025-05-16,Home Office
+CUST-00057,Mary,Brown,mary.brown57@example.com,Male,Philadelphia,PA,USA,2025-05-26,VIP
+CUST-00058,William,Lopez,william.lopez58@example.com,Male,Phoenix,AZ,USA,2025-11-10,Home Office
+CUST-00059,David,Johnson,david.johnson59@example.com,Male,Chicago,IL,USA,2025-05-16,Consumer
+CUST-00060,Barbara,Rodriguez,barbara.rodriguez60@example.com,Female,Chicago,IL,USA,2025-05-20,Corporate
+CUST-00061,Barbara,Garcia,barbara.garcia61@example.com,Female,Houston,TX,USA,2025-12-18,VIP
+CUST-00062,Robert,Smith,robert.smith62@example.com,Female,Los Angeles,CA,USA,2025-11-21,Home Office
+CUST-00063,James,Smith,james.smith63@example.com,Female,Philadelphia,PA,USA,2025-03-08,Corporate
+CUST-00064,Barbara,Davis,barbara.davis64@example.com,Female,Dallas,TX,USA,2025-12-28,Consumer
+CUST-00065,Mary,Johnson,mary.johnson65@example.com,Male,Toronto,ON,Canada,2025-03-18,Home Office
+CUST-00066,Elizabeth,Rodriguez,elizabeth.rodriguez66@example.com,Male,Chicago,IL,USA,2025-08-09,Consumer
+CUST-00067,Robert,Garcia,robert.garcia67@example.com,Male,New York,NY,USA,2025-07-03,Corporate
+CUST-00068,David,Johnson,david.johnson68@example.com,Female,Philadelphia,PA,USA,2025-10-14,Corporate
+CUST-00069,Patricia,Williams,patricia.williams69@example.com,Male,Chicago,IL,USA,2025-07-31,Corporate
+CUST-00070,Barbara,Garcia,barbara.garcia70@example.com,Male,San Antonio,TX,USA,2025-12-09,Home Office
+CUST-00071,John,Lopez,john.lopez71@example.com,Male,Los Angeles,CA,USA,2025-07-15,VIP
+CUST-00072,Patricia,Brown,patricia.brown72@example.com,Female,San Diego,CA,USA,2025-06-29,Corporate
+CUST-00073,Patricia,Smith,patricia.smith73@example.com,Female,London,ENG,UK,2025-04-09,Home Office
+CUST-00074,Robert,Johnson,robert.johnson74@example.com,Female,Phoenix,AZ,USA,2025-06-29,Home Office
+CUST-00075,James,Johnson,james.johnson75@example.com,Female,Phoenix,AZ,USA,2025-04-02,Consumer
+CUST-00076,Mary,Martinez,mary.martinez76@example.com,Female,San Antonio,TX,USA,2025-06-26,VIP
+CUST-00077,Elizabeth,Rodriguez,elizabeth.rodriguez77@example.com,Male,Los Angeles,CA,USA,2025-07-17,Home Office
+CUST-00078,James,Lopez,james.lopez78@example.com,Male,San Antonio,TX,USA,2025-01-01,Home Office
+CUST-00079,Michael,Johnson,michael.johnson79@example.com,Female,London,ENG,UK,2025-06-19,Consumer
+CUST-00080,Barbara,Jones,barbara.jones80@example.com,Female,Dallas,TX,USA,2025-06-08,Home Office
+CUST-00081,Michael,Lopez,michael.lopez81@example.com,Male,Phoenix,AZ,USA,2025-10-11,Corporate
+CUST-00082,Michael,Hernandez,michael.hernandez82@example.com,Male,San Antonio,TX,USA,2025-12-13,Home Office
+CUST-00083,Michael,Rodriguez,michael.rodriguez83@example.com,Female,New York,NY,USA,2025-06-05,Corporate
+CUST-00084,Michael,Martinez,michael.martinez84@example.com,Female,San Jose,CA,USA,2025-12-02,VIP
+CUST-00085,Linda,Davis,linda.davis85@example.com,Female,London,ENG,UK,2025-04-20,Corporate
+CUST-00086,David,Johnson,david.johnson86@example.com,Female,Phoenix,AZ,USA,2025-09-21,Consumer
+CUST-00087,Patricia,Hernandez,patricia.hernandez87@example.com,Male,Phoenix,AZ,USA,2025-04-26,Corporate
+CUST-00088,James,Smith,james.smith88@example.com,Male,Houston,TX,USA,2025-09-01,VIP
+CUST-00089,Michael,Hernandez,michael.hernandez89@example.com,Female,San Jose,CA,USA,2025-04-10,VIP
+CUST-00090,Michael,Brown,michael.brown90@example.com,Male,Chicago,IL,USA,2025-12-02,Consumer
+CUST-00091,Michael,Brown,michael.brown91@example.com,Female,Chicago,IL,USA,2025-12-23,Consumer
+CUST-00092,William,Brown,william.brown92@example.com,Male,Los Angeles,CA,USA,2025-08-22,VIP
+CUST-00093,David,Rodriguez,david.rodriguez93@example.com,Female,Dallas,TX,USA,2025-11-01,VIP
+CUST-00094,Elizabeth,Lopez,elizabeth.lopez94@example.com,Female,Dallas,TX,USA,2025-08-07,Corporate
+CUST-00095,Barbara,Davis,barbara.davis95@example.com,Male,San Diego,CA,USA,2025-05-13,Home Office
+CUST-00096,William,Davis,william.davis96@example.com,Female,London,ENG,UK,2025-05-03,VIP
+CUST-00097,Mary,Lopez,mary.lopez97@example.com,Female,Phoenix,AZ,USA,2025-05-01,Home Office
+CUST-00098,Jennifer,Rodriguez,jennifer.rodriguez98@example.com,Male,Los Angeles,CA,USA,2025-03-12,Corporate
+CUST-00099,Michael,Lopez,michael.lopez99@example.com,Male,Chicago,IL,USA,2025-12-28,Consumer
+CUST-00100,Michael,Miller,michael.miller100@example.com,Female,Philadelphia,PA,USA,2025-10-05,VIP
+CUST-00101,James,Brown,james.brown101@example.com,Male,San Antonio,TX,USA,2025-07-19,VIP
+CUST-00102,Linda,Smith,linda.smith102@example.com,Female,Philadelphia,PA,USA,2025-06-02,VIP
+CUST-00103,William,Lopez,william.lopez103@example.com,Male,Toronto,ON,Canada,2025-10-07,VIP
+CUST-00104,Patricia,Jones,patricia.jones104@example.com,Male,San Antonio,TX,USA,2025-09-06,VIP
+CUST-00105,Jennifer,Hernandez,jennifer.hernandez105@example.com,Male,London,ENG,UK,2025-07-27,VIP
+CUST-00106,John,Martinez,john.martinez106@example.com,Female,Dallas,TX,USA,2025-01-14,Consumer
+CUST-00107,Mary,Hernandez,mary.hernandez107@example.com,Female,San Antonio,TX,USA,2025-03-11,Corporate
+CUST-00108,James,Jones,james.jones108@example.com,Male,San Antonio,TX,USA,2025-06-17,VIP
+CUST-00109,Jennifer,Garcia,jennifer.garcia109@example.com,Female,San Antonio,TX,USA,2025-05-23,Home Office
+CUST-00110,Mary,Davis,mary.davis110@example.com,Male,New York,NY,USA,2025-10-04,Home Office
+CUST-00111,Patricia,Hernandez,patricia.hernandez111@example.com,Male,Los Angeles,CA,USA,2025-11-30,Consumer
+CUST-00112,Patricia,Brown,patricia.brown112@example.com,Male,New York,NY,USA,2025-11-15,Corporate
+CUST-00113,John,Davis,john.davis113@example.com,Male,London,ENG,UK,2025-02-28,VIP
+CUST-00114,Barbara,Jones,barbara.jones114@example.com,Male,Philadelphia,PA,USA,2025-03-27,Corporate
+CUST-00115,Robert,Johnson,robert.johnson115@example.com,Female,San Jose,CA,USA,2025-01-14,VIP
+CUST-00116,Michael,Lopez,michael.lopez116@example.com,Male,Houston,TX,USA,2025-02-08,Consumer
+CUST-00117,Barbara,Jones,barbara.jones117@example.com,Male,London,ENG,UK,2025-11-04,Consumer
+CUST-00118,Jennifer,Rodriguez,jennifer.rodriguez118@example.com,Female,San Antonio,TX,USA,2025-12-05,Consumer
+CUST-00119,William,Hernandez,william.hernandez119@example.com,Female,Philadelphia,PA,USA,2025-01-07,VIP
+CUST-00120,Mary,Miller,mary.miller120@example.com,Female,Philadelphia,PA,USA,2025-11-22,Corporate
+CUST-00121,Michael,Williams,michael.williams121@example.com,Female,Toronto,ON,Canada,2025-09-25,VIP
+CUST-00122,Linda,Miller,linda.miller122@example.com,Female,Toronto,ON,Canada,2025-10-31,Home Office
+CUST-00123,Patricia,Johnson,patricia.johnson123@example.com,Male,Phoenix,AZ,USA,2025-08-19,VIP
+CUST-00124,Elizabeth,Martinez,elizabeth.martinez124@example.com,Female,London,ENG,UK,2025-07-14,Consumer
+CUST-00125,Linda,Garcia,linda.garcia125@example.com,Male,Chicago,IL,USA,2025-09-07,Home Office
+CUST-00126,Robert,Garcia,robert.garcia126@example.com,Female,Phoenix,AZ,USA,2025-11-02,Consumer
+CUST-00127,William,Brown,william.brown127@example.com,Female,Los Angeles,CA,USA,2025-05-04,VIP
+CUST-00128,William,Brown,william.brown128@example.com,Female,Toronto,ON,Canada,2025-09-01,VIP
+CUST-00129,James,Johnson,james.johnson129@example.com,Female,Phoenix,AZ,USA,2025-04-24,Corporate
+CUST-00130,Robert,Hernandez,robert.hernandez130@example.com,Female,San Jose,CA,USA,2025-07-08,Home Office
+CUST-00131,Michael,Lopez,michael.lopez131@example.com,Female,Dallas,TX,USA,2025-06-19,VIP
+CUST-00132,Robert,Jones,robert.jones132@example.com,Male,Phoenix,AZ,USA,2025-04-29,Corporate
+CUST-00133,Jennifer,Johnson,jennifer.johnson133@example.com,Male,Toronto,ON,Canada,2025-10-02,Corporate
+CUST-00134,Patricia,Lopez,patricia.lopez134@example.com,Female,San Diego,CA,USA,2025-05-22,Consumer
+CUST-00135,Patricia,Jones,patricia.jones135@example.com,Male,Houston,TX,USA,2025-07-04,Home Office
+CUST-00136,James,Lopez,james.lopez136@example.com,Female,Dallas,TX,USA,2025-03-06,Consumer
+CUST-00137,James,Rodriguez,james.rodriguez137@example.com,Male,Phoenix,AZ,USA,2025-12-24,VIP
+CUST-00138,Mary,Smith,mary.smith138@example.com,Female,San Jose,CA,USA,2025-05-26,VIP
+CUST-00139,Linda,Garcia,linda.garcia139@example.com,Female,Chicago,IL,USA,2025-01-27,VIP
+CUST-00140,Mary,Johnson,mary.johnson140@example.com,Male,San Antonio,TX,USA,2025-09-09,Consumer
+CUST-00141,John,Williams,john.williams141@example.com,Male,San Jose,CA,USA,2025-06-05,Corporate
+CUST-00142,Mary,Rodriguez,mary.rodriguez142@example.com,Male,San Antonio,TX,USA,2025-11-07,VIP
+CUST-00143,Linda,Davis,linda.davis143@example.com,Female,Phoenix,AZ,USA,2025-10-29,Home Office
+CUST-00144,Elizabeth,Martinez,elizabeth.martinez144@example.com,Male,New York,NY,USA,2025-11-09,Corporate
+CUST-00145,David,Brown,david.brown145@example.com,Male,Phoenix,AZ,USA,2025-12-05,Corporate
+CUST-00146,Patricia,Williams,patricia.williams146@example.com,Male,Dallas,TX,USA,2025-02-08,Consumer
+CUST-00147,Michael,Davis,michael.davis147@example.com,Female,Toronto,ON,Canada,2025-11-01,Home Office
+CUST-00148,James,Brown,james.brown148@example.com,Female,Phoenix,AZ,USA,2025-12-28,VIP
+CUST-00149,Mary,Hernandez,mary.hernandez149@example.com,Male,Houston,TX,USA,2025-05-16,VIP
+CUST-00150,Mary,Rodriguez,mary.rodriguez150@example.com,Male,Houston,TX,USA,2025-11-28,Home Office
+CUST-00151,John,Johnson,john.johnson151@example.com,Female,New York,NY,USA,2025-03-26,Home Office
+CUST-00152,Linda,Johnson,linda.johnson152@example.com,Female,San Diego,CA,USA,2025-12-19,VIP
+CUST-00153,Robert,Rodriguez,robert.rodriguez153@example.com,Female,Dallas,TX,USA,2025-09-10,Consumer
+CUST-00154,Elizabeth,Smith,elizabeth.smith154@example.com,Female,San Antonio,TX,USA,2025-06-15,Consumer
+CUST-00155,Mary,Brown,mary.brown155@example.com,Male,London,ENG,UK,2025-10-22,Home Office
+CUST-00156,Elizabeth,Smith,elizabeth.smith156@example.com,Female,Chicago,IL,USA,2025-08-29,Home Office
+CUST-00157,John,Martinez,john.martinez157@example.com,Female,San Antonio,TX,USA,2025-11-22,Consumer
+CUST-00158,Linda,Garcia,linda.garcia158@example.com,Female,San Antonio,TX,USA,2025-06-20,Consumer
+CUST-00159,John,Garcia,john.garcia159@example.com,Female,San Antonio,TX,USA,2025-12-22,Home Office
+CUST-00160,David,Miller,david.miller160@example.com,Female,Dallas,TX,USA,2025-01-19,Consumer
+CUST-00161,Jennifer,Jones,jennifer.jones161@example.com,Female,Philadelphia,PA,USA,2025-03-01,Consumer
+CUST-00162,David,Rodriguez,david.rodriguez162@example.com,Male,San Diego,CA,USA,2025-07-31,Corporate
+CUST-00163,William,Garcia,william.garcia163@example.com,Female,San Jose,CA,USA,2025-09-13,Consumer
+CUST-00164,Patricia,Jones,patricia.jones164@example.com,Female,Dallas,TX,USA,2025-03-09,VIP
+CUST-00165,Barbara,Davis,barbara.davis165@example.com,Male,Los Angeles,CA,USA,2025-01-15,Corporate
+CUST-00166,Robert,Rodriguez,robert.rodriguez166@example.com,Female,New York,NY,USA,2025-10-10,Consumer
+CUST-00167,Patricia,Johnson,patricia.johnson167@example.com,Male,San Diego,CA,USA,2025-03-02,VIP
+CUST-00168,Barbara,Jones,barbara.jones168@example.com,Female,Dallas,TX,USA,2025-12-28,VIP
+CUST-00169,Linda,Davis,linda.davis169@example.com,Male,Houston,TX,USA,2025-08-22,VIP
+CUST-00170,Patricia,Martinez,patricia.martinez170@example.com,Male,Dallas,TX,USA,2025-03-11,Home Office
+CUST-00171,Michael,Garcia,michael.garcia171@example.com,Male,Dallas,TX,USA,2025-05-17,Home Office
+CUST-00172,Barbara,Jones,barbara.jones172@example.com,Female,San Jose,CA,USA,2025-10-24,Corporate
+CUST-00173,Linda,Rodriguez,linda.rodriguez173@example.com,Female,San Diego,CA,USA,2025-06-26,VIP
+CUST-00174,Linda,Garcia,linda.garcia174@example.com,Male,Houston,TX,USA,2025-12-24,VIP
+CUST-00175,Patricia,Miller,patricia.miller175@example.com,Female,New York,NY,USA,2025-06-12,VIP
+CUST-00176,Michael,Hernandez,michael.hernandez176@example.com,Female,London,ENG,UK,2025-03-19,Consumer
+CUST-00177,John,Rodriguez,john.rodriguez177@example.com,Male,San Jose,CA,USA,2025-06-19,VIP
+CUST-00178,Mary,Rodriguez,mary.rodriguez178@example.com,Male,San Diego,CA,USA,2025-01-08,VIP
+CUST-00179,David,Williams,david.williams179@example.com,Female,Los Angeles,CA,USA,2025-08-29,Home Office
+CUST-00180,Elizabeth,Lopez,elizabeth.lopez180@example.com,Male,San Antonio,TX,USA,2025-11-29,Home Office
+CUST-00181,David,Rodriguez,david.rodriguez181@example.com,Female,San Antonio,TX,USA,2025-06-12,Consumer
+CUST-00182,Elizabeth,Johnson,elizabeth.johnson182@example.com,Female,Houston,TX,USA,2025-11-20,Corporate
+CUST-00183,Barbara,Johnson,barbara.johnson183@example.com,Male,San Antonio,TX,USA,2025-02-20,VIP
+CUST-00184,John,Lopez,john.lopez184@example.com,Male,Phoenix,AZ,USA,2025-01-15,Home Office
+CUST-00185,James,Jones,james.jones185@example.com,Female,Philadelphia,PA,USA,2025-07-11,Corporate
+CUST-00186,Patricia,Rodriguez,patricia.rodriguez186@example.com,Male,San Antonio,TX,USA,2025-10-17,Corporate
+CUST-00187,John,Johnson,john.johnson187@example.com,Male,San Jose,CA,USA,2025-07-15,VIP
+CUST-00188,Elizabeth,Williams,elizabeth.williams188@example.com,Female,Houston,TX,USA,2025-08-25,VIP
+CUST-00189,Robert,Hernandez,robert.hernandez189@example.com,Female,New York,NY,USA,2025-08-27,Corporate
+CUST-00190,Mary,Davis,mary.davis190@example.com,Female,Philadelphia,PA,USA,2025-10-28,VIP
+CUST-00191,Barbara,Jones,barbara.jones191@example.com,Male,San Diego,CA,USA,2025-06-04,VIP
+CUST-00192,Linda,Johnson,linda.johnson192@example.com,Female,Houston,TX,USA,2025-07-15,Home Office
+CUST-00193,Barbara,Jones,barbara.jones193@example.com,Female,New York,NY,USA,2025-12-04,Home Office
+CUST-00194,James,Martinez,james.martinez194@example.com,Female,London,ENG,UK,2025-01-26,Home Office
+CUST-00195,Patricia,Martinez,patricia.martinez195@example.com,Male,Philadelphia,PA,USA,2025-04-23,Home Office
+CUST-00196,David,Lopez,david.lopez196@example.com,Male,London,ENG,UK,2025-12-15,Consumer
+CUST-00197,David,Hernandez,david.hernandez197@example.com,Female,New York,NY,USA,2025-06-08,Consumer
+CUST-00198,Elizabeth,Garcia,elizabeth.garcia198@example.com,Male,Toronto,ON,Canada,2025-03-09,Home Office
+CUST-00199,Jennifer,Lopez,jennifer.lopez199@example.com,Male,San Antonio,TX,USA,2025-03-31,Corporate
+CUST-00200,William,Garcia,william.garcia200@example.com,Female,Dallas,TX,USA,2025-09-14,Corporate
+CUST-00201,Robert,Davis,robert.davis201@example.com,Male,Phoenix,AZ,USA,2025-06-23,VIP
+CUST-00202,Mary,Williams,mary.williams202@example.com,Female,Houston,TX,USA,2025-12-13,Home Office
+CUST-00203,Mary,Miller,mary.miller203@example.com,Male,New York,NY,USA,2025-05-16,VIP
+CUST-00204,Jennifer,Hernandez,jennifer.hernandez204@example.com,Female,Toronto,ON,Canada,2025-12-11,VIP
+CUST-00205,David,Garcia,david.garcia205@example.com,Male,Los Angeles,CA,USA,2025-12-12,VIP
+CUST-00206,James,Martinez,james.martinez206@example.com,Male,Dallas,TX,USA,2025-06-17,Consumer
+CUST-00207,David,Davis,david.davis207@example.com,Female,Toronto,ON,Canada,2025-06-04,Consumer
+CUST-00208,John,Smith,john.smith208@example.com,Female,New York,NY,USA,2025-06-05,Consumer
+CUST-00209,Mary,Brown,mary.brown209@example.com,Female,Dallas,TX,USA,2025-03-11,VIP
+CUST-00210,Jennifer,Hernandez,jennifer.hernandez210@example.com,Female,Toronto,ON,Canada,2025-12-23,Corporate
+CUST-00211,Michael,Hernandez,michael.hernandez211@example.com,Female,Los Angeles,CA,USA,2025-09-08,Home Office
+CUST-00212,James,Lopez,james.lopez212@example.com,Female,Philadelphia,PA,USA,2025-04-22,VIP
+CUST-00213,Patricia,Garcia,patricia.garcia213@example.com,Female,Los Angeles,CA,USA,2025-12-18,Home Office
+CUST-00214,James,Miller,james.miller214@example.com,Male,Phoenix,AZ,USA,2025-04-08,VIP
+CUST-00215,Mary,Hernandez,mary.hernandez215@example.com,Male,Houston,TX,USA,2025-11-25,Consumer
+CUST-00216,Jennifer,Brown,jennifer.brown216@example.com,Male,Chicago,IL,USA,2025-10-17,Consumer
+CUST-00217,William,Brown,william.brown217@example.com,Male,San Jose,CA,USA,2025-04-21,Home Office
+CUST-00218,John,Martinez,john.martinez218@example.com,Male,New York,NY,USA,2025-05-22,Corporate
+CUST-00219,William,Jones,william.jones219@example.com,Male,Chicago,IL,USA,2025-02-26,Corporate
+CUST-00220,James,Garcia,james.garcia220@example.com,Female,Houston,TX,USA,2025-10-29,Consumer
+CUST-00221,John,Jones,john.jones221@example.com,Female,New York,NY,USA,2025-03-06,Consumer
+CUST-00222,Barbara,Johnson,barbara.johnson222@example.com,Female,San Diego,CA,USA,2025-08-18,Consumer
+CUST-00223,Linda,Rodriguez,linda.rodriguez223@example.com,Male,Houston,TX,USA,2025-11-11,Home Office
+CUST-00224,Linda,Hernandez,linda.hernandez224@example.com,Female,New York,NY,USA,2025-02-01,VIP
+CUST-00225,Michael,Hernandez,michael.hernandez225@example.com,Female,Los Angeles,CA,USA,2025-09-09,Consumer
+CUST-00226,Mary,Garcia,mary.garcia226@example.com,Male,San Jose,CA,USA,2025-03-17,Corporate
+CUST-00227,Robert,Martinez,robert.martinez227@example.com,Female,London,ENG,UK,2025-10-27,VIP
+CUST-00228,Elizabeth,Rodriguez,elizabeth.rodriguez228@example.com,Female,Phoenix,AZ,USA,2025-08-21,Consumer
+CUST-00229,Barbara,Johnson,barbara.johnson229@example.com,Male,London,ENG,UK,2025-11-30,VIP
+CUST-00230,Linda,Brown,linda.brown230@example.com,Female,San Antonio,TX,USA,2025-06-23,VIP
+CUST-00231,Michael,Lopez,michael.lopez231@example.com,Female,Los Angeles,CA,USA,2025-06-10,Home Office
+CUST-00232,David,Jones,david.jones232@example.com,Female,Philadelphia,PA,USA,2025-03-20,Consumer
+CUST-00233,Mary,Johnson,mary.johnson233@example.com,Male,Los Angeles,CA,USA,2025-08-10,Home Office
+CUST-00234,John,Rodriguez,john.rodriguez234@example.com,Female,New York,NY,USA,2025-10-28,Consumer
+CUST-00235,Michael,Garcia,michael.garcia235@example.com,Male,London,ENG,UK,2025-08-05,Home Office
+CUST-00236,Elizabeth,Jones,elizabeth.jones236@example.com,Male,Philadelphia,PA,USA,2025-02-23,Corporate
+CUST-00237,David,Davis,david.davis237@example.com,Female,Houston,TX,USA,2025-02-25,Home Office
+CUST-00238,Mary,Jones,mary.jones238@example.com,Female,San Jose,CA,USA,2025-04-26,Consumer
+CUST-00239,Elizabeth,Hernandez,elizabeth.hernandez239@example.com,Male,Toronto,ON,Canada,2025-05-17,Corporate
+CUST-00240,Robert,Lopez,robert.lopez240@example.com,Female,Phoenix,AZ,USA,2025-06-23,Consumer
+CUST-00241,John,Williams,john.williams241@example.com,Female,San Jose,CA,USA,2025-12-03,Consumer
+CUST-00242,John,Lopez,john.lopez242@example.com,Male,London,ENG,UK,2025-01-16,Corporate
+CUST-00243,Michael,Miller,michael.miller243@example.com,Male,San Diego,CA,USA,2025-06-24,Home Office
+CUST-00244,Robert,Lopez,robert.lopez244@example.com,Male,Philadelphia,PA,USA,2025-10-18,Consumer
+CUST-00245,John,Williams,john.williams245@example.com,Male,San Jose,CA,USA,2025-01-26,Home Office
+CUST-00246,Linda,Hernandez,linda.hernandez246@example.com,Female,San Antonio,TX,USA,2025-09-06,VIP
+CUST-00247,Robert,Brown,robert.brown247@example.com,Female,Dallas,TX,USA,2025-02-28,VIP
+CUST-00248,Mary,Jones,mary.jones248@example.com,Female,London,ENG,UK,2025-12-14,Home Office
+CUST-00249,James,Brown,james.brown249@example.com,Male,San Antonio,TX,USA,2025-11-03,Consumer
+CUST-00250,Patricia,Jones,patricia.jones250@example.com,Female,Houston,TX,USA,2025-03-12,Home Office
+CUST-00251,Jennifer,Johnson,jennifer.johnson251@example.com,Female,New York,NY,USA,2025-09-12,Corporate
+CUST-00252,John,Miller,john.miller252@example.com,Male,Dallas,TX,USA,2025-12-27,Home Office
+CUST-00253,Mary,Miller,mary.miller253@example.com,Female,Toronto,ON,Canada,2025-01-22,Consumer
+CUST-00254,Linda,Johnson,linda.johnson254@example.com,Female,Philadelphia,PA,USA,2025-10-22,VIP
+CUST-00255,Barbara,Hernandez,barbara.hernandez255@example.com,Male,San Antonio,TX,USA,2025-05-29,VIP
+CUST-00256,James,Garcia,james.garcia256@example.com,Female,Chicago,IL,USA,2025-11-13,Home Office
+CUST-00257,Mary,Miller,mary.miller257@example.com,Female,Los Angeles,CA,USA,2025-05-05,VIP
+CUST-00258,William,Johnson,william.johnson258@example.com,Female,San Antonio,TX,USA,2025-06-08,Corporate
+CUST-00259,Jennifer,Williams,jennifer.williams259@example.com,Male,Los Angeles,CA,USA,2025-09-19,Corporate
+CUST-00260,Jennifer,Garcia,jennifer.garcia260@example.com,Male,Toronto,ON,Canada,2025-11-27,Corporate
+CUST-00261,Mary,Williams,mary.williams261@example.com,Male,Phoenix,AZ,USA,2025-04-12,Corporate
+CUST-00262,David,Johnson,david.johnson262@example.com,Female,Chicago,IL,USA,2025-11-18,VIP
+CUST-00263,Elizabeth,Martinez,elizabeth.martinez263@example.com,Female,San Diego,CA,USA,2025-12-15,Home Office
+CUST-00264,John,Davis,john.davis264@example.com,Female,Los Angeles,CA,USA,2025-08-29,Home Office
+CUST-00265,Robert,Martinez,robert.martinez265@example.com,Male,New York,NY,USA,2025-06-30,Home Office
+CUST-00266,Linda,Davis,linda.davis266@example.com,Female,New York,NY,USA,2025-01-30,Home Office
+CUST-00267,Mary,Hernandez,mary.hernandez267@example.com,Female,Los Angeles,CA,USA,2025-11-11,VIP
+CUST-00268,Elizabeth,Rodriguez,elizabeth.rodriguez268@example.com,Female,Toronto,ON,Canada,2025-01-22,Corporate
+CUST-00269,Jennifer,Martinez,jennifer.martinez269@example.com,Male,San Diego,CA,USA,2025-09-14,Consumer
+CUST-00270,Linda,Johnson,linda.johnson270@example.com,Male,Philadelphia,PA,USA,2026-01-01,Corporate
+CUST-00271,James,Brown,james.brown271@example.com,Female,Toronto,ON,Canada,2025-08-13,Corporate
+CUST-00272,Jennifer,Garcia,jennifer.garcia272@example.com,Female,Phoenix,AZ,USA,2025-07-18,Home Office
+CUST-00273,David,Martinez,david.martinez273@example.com,Female,New York,NY,USA,2025-11-20,Consumer
+CUST-00274,Jennifer,Johnson,jennifer.johnson274@example.com,Female,Dallas,TX,USA,2025-12-14,Home Office
+CUST-00275,Robert,Lopez,robert.lopez275@example.com,Male,London,ENG,UK,2025-11-05,Home Office
+CUST-00276,Mary,Martinez,mary.martinez276@example.com,Female,London,ENG,UK,2025-03-14,Home Office
+CUST-00277,David,Lopez,david.lopez277@example.com,Male,London,ENG,UK,2025-07-20,Consumer
+CUST-00278,Robert,Rodriguez,robert.rodriguez278@example.com,Female,San Antonio,TX,USA,2025-11-26,Corporate
+CUST-00279,David,Lopez,david.lopez279@example.com,Male,Toronto,ON,Canada,2025-12-17,VIP
+CUST-00280,William,Garcia,william.garcia280@example.com,Female,New York,NY,USA,2025-07-05,Corporate
+CUST-00281,Patricia,Garcia,patricia.garcia281@example.com,Male,San Diego,CA,USA,2025-04-09,Corporate
+CUST-00282,John,Johnson,john.johnson282@example.com,Male,Phoenix,AZ,USA,2025-02-21,Home Office
+CUST-00283,Elizabeth,Williams,elizabeth.williams283@example.com,Male,San Jose,CA,USA,2025-07-12,Corporate
+CUST-00284,John,Lopez,john.lopez284@example.com,Female,San Jose,CA,USA,2025-03-26,Consumer
+CUST-00285,Michael,Garcia,michael.garcia285@example.com,Female,London,ENG,UK,2025-05-02,Home Office
+CUST-00286,Barbara,Davis,barbara.davis286@example.com,Male,Houston,TX,USA,2025-10-01,Home Office
+CUST-00287,Linda,Brown,linda.brown287@example.com,Female,Philadelphia,PA,USA,2025-12-14,VIP
+CUST-00288,Robert,Miller,robert.miller288@example.com,Female,Dallas,TX,USA,2025-09-28,Corporate
+CUST-00289,Patricia,Martinez,patricia.martinez289@example.com,Male,Chicago,IL,USA,2025-05-09,VIP
+CUST-00290,Jennifer,Rodriguez,jennifer.rodriguez290@example.com,Male,Los Angeles,CA,USA,2025-12-31,Home Office
+CUST-00291,Mary,Williams,mary.williams291@example.com,Male,Phoenix,AZ,USA,2025-08-19,VIP
+CUST-00292,Mary,Brown,mary.brown292@example.com,Male,San Diego,CA,USA,2025-06-28,VIP
+CUST-00293,James,Miller,james.miller293@example.com,Male,Dallas,TX,USA,2025-07-11,VIP
+CUST-00294,Mary,Garcia,mary.garcia294@example.com,Female,Houston,TX,USA,2025-01-15,Consumer
+CUST-00295,Barbara,Hernandez,barbara.hernandez295@example.com,Male,Philadelphia,PA,USA,2025-03-16,Consumer
+CUST-00296,Robert,Davis,robert.davis296@example.com,Female,Toronto,ON,Canada,2025-03-13,VIP
+CUST-00297,Elizabeth,Smith,elizabeth.smith297@example.com,Female,Los Angeles,CA,USA,2025-01-10,Corporate
+CUST-00298,John,Rodriguez,john.rodriguez298@example.com,Female,Toronto,ON,Canada,2025-11-08,Consumer
+CUST-00299,Robert,Brown,robert.brown299@example.com,Male,Phoenix,AZ,USA,2025-03-04,Corporate
+CUST-00300,Michael,Hernandez,michael.hernandez300@example.com,Male,San Jose,CA,USA,2025-08-23,Consumer
+CUST-00301,Linda,Martinez,linda.martinez301@example.com,Male,Dallas,TX,USA,2025-01-09,Corporate
+CUST-00302,Robert,Miller,robert.miller302@example.com,Female,New York,NY,USA,2025-11-11,Corporate
+CUST-00303,Elizabeth,Miller,elizabeth.miller303@example.com,Male,Chicago,IL,USA,2025-12-07,Home Office
+CUST-00304,Mary,Rodriguez,mary.rodriguez304@example.com,Male,Dallas,TX,USA,2025-09-17,VIP
+CUST-00305,Linda,Smith,linda.smith305@example.com,Female,London,ENG,UK,2025-07-18,Home Office
+CUST-00306,Barbara,Smith,barbara.smith306@example.com,Female,Philadelphia,PA,USA,2025-02-04,Corporate
+CUST-00307,Barbara,Hernandez,barbara.hernandez307@example.com,Female,London,ENG,UK,2025-02-23,Corporate
+CUST-00308,James,Garcia,james.garcia308@example.com,Male,Dallas,TX,USA,2025-06-23,VIP
+CUST-00309,Barbara,Davis,barbara.davis309@example.com,Male,London,ENG,UK,2025-04-04,Consumer
+CUST-00310,Barbara,Davis,barbara.davis310@example.com,Male,New York,NY,USA,2025-05-31,Consumer
+CUST-00311,Patricia,Smith,patricia.smith311@example.com,Female,Philadelphia,PA,USA,2025-06-08,VIP
+CUST-00312,Robert,Smith,robert.smith312@example.com,Female,London,ENG,UK,2025-04-08,Home Office
+CUST-00313,James,Hernandez,james.hernandez313@example.com,Male,Philadelphia,PA,USA,2025-05-20,Home Office
+CUST-00314,Michael,Miller,michael.miller314@example.com,Female,Toronto,ON,Canada,2025-08-14,Home Office
+CUST-00315,John,Davis,john.davis315@example.com,Female,Toronto,ON,Canada,2025-09-12,Home Office
+CUST-00316,Mary,Lopez,mary.lopez316@example.com,Female,San Antonio,TX,USA,2025-02-10,Corporate
+CUST-00317,William,Jones,william.jones317@example.com,Male,Philadelphia,PA,USA,2025-02-22,Home Office
+CUST-00318,David,Jones,david.jones318@example.com,Female,Phoenix,AZ,USA,2025-08-17,Corporate
+CUST-00319,Barbara,Davis,barbara.davis319@example.com,Male,Philadelphia,PA,USA,2025-08-17,Home Office
+CUST-00320,Elizabeth,Miller,elizabeth.miller320@example.com,Male,Phoenix,AZ,USA,2025-11-24,Consumer
+CUST-00321,David,Hernandez,david.hernandez321@example.com,Male,San Antonio,TX,USA,2025-07-06,Consumer
+CUST-00322,John,Martinez,john.martinez322@example.com,Male,London,ENG,UK,2025-08-13,Corporate
+CUST-00323,Mary,Brown,mary.brown323@example.com,Female,London,ENG,UK,2025-07-07,VIP
+CUST-00324,Elizabeth,Smith,elizabeth.smith324@example.com,Female,San Jose,CA,USA,2025-03-20,Home Office
+CUST-00325,Jennifer,Davis,jennifer.davis325@example.com,Male,Los Angeles,CA,USA,2025-10-21,Home Office
+CUST-00326,Michael,Garcia,michael.garcia326@example.com,Male,London,ENG,UK,2025-05-23,Consumer
+CUST-00327,James,Lopez,james.lopez327@example.com,Female,Chicago,IL,USA,2025-09-13,Consumer
+CUST-00328,Robert,Jones,robert.jones328@example.com,Male,Toronto,ON,Canada,2025-08-17,Home Office
+CUST-00329,Barbara,Davis,barbara.davis329@example.com,Male,Houston,TX,USA,2025-03-04,Consumer
+CUST-00330,Linda,Williams,linda.williams330@example.com,Male,Toronto,ON,Canada,2025-08-16,Home Office
+CUST-00331,David,Garcia,david.garcia331@example.com,Female,Toronto,ON,Canada,2025-02-03,Home Office
+CUST-00332,John,Lopez,john.lopez332@example.com,Male,Toronto,ON,Canada,2025-12-25,Home Office
+CUST-00333,William,Brown,william.brown333@example.com,Male,Los Angeles,CA,USA,2025-04-13,Corporate
+CUST-00334,Linda,Smith,linda.smith334@example.com,Female,Philadelphia,PA,USA,2025-10-11,VIP
+CUST-00335,William,Williams,william.williams335@example.com,Male,San Jose,CA,USA,2025-02-14,Home Office
+CUST-00336,Michael,Lopez,michael.lopez336@example.com,Female,Toronto,ON,Canada,2025-09-03,VIP
+CUST-00337,Elizabeth,Johnson,elizabeth.johnson337@example.com,Male,Chicago,IL,USA,2025-06-12,VIP
+CUST-00338,Linda,Hernandez,linda.hernandez338@example.com,Male,Dallas,TX,USA,2025-06-26,Corporate
+CUST-00339,John,Miller,john.miller339@example.com,Male,Dallas,TX,USA,2025-01-29,Corporate
+CUST-00340,Robert,Williams,robert.williams340@example.com,Male,Chicago,IL,USA,2025-06-15,Home Office
+CUST-00341,William,Jones,william.jones341@example.com,Male,Los Angeles,CA,USA,2025-05-09,Home Office
+CUST-00342,John,Hernandez,john.hernandez342@example.com,Male,Phoenix,AZ,USA,2025-11-11,Corporate
+CUST-00343,Elizabeth,Martinez,elizabeth.martinez343@example.com,Female,Chicago,IL,USA,2025-03-29,Consumer
+CUST-00344,James,Johnson,james.johnson344@example.com,Female,New York,NY,USA,2025-11-25,Corporate
+CUST-00345,Elizabeth,Miller,elizabeth.miller345@example.com,Male,San Jose,CA,USA,2025-11-24,VIP
+CUST-00346,David,Rodriguez,david.rodriguez346@example.com,Female,Phoenix,AZ,USA,2025-11-25,VIP
+CUST-00347,Patricia,Hernandez,patricia.hernandez347@example.com,Female,San Antonio,TX,USA,2025-06-02,Consumer
+CUST-00348,Barbara,Smith,barbara.smith348@example.com,Female,Chicago,IL,USA,2025-08-14,VIP
+CUST-00349,Linda,Brown,linda.brown349@example.com,Male,Philadelphia,PA,USA,2025-11-07,Home Office
+CUST-00350,Barbara,Garcia,barbara.garcia350@example.com,Female,Toronto,ON,Canada,2025-06-26,Corporate
+CUST-00351,Jennifer,Rodriguez,jennifer.rodriguez351@example.com,Female,Dallas,TX,USA,2025-02-24,Corporate
+CUST-00352,Linda,Johnson,linda.johnson352@example.com,Male,Phoenix,AZ,USA,2025-08-19,Corporate
+CUST-00353,Mary,Smith,mary.smith353@example.com,Female,Phoenix,AZ,USA,2025-07-16,Corporate
+CUST-00354,John,Garcia,john.garcia354@example.com,Male,San Jose,CA,USA,2025-06-10,Corporate
+CUST-00355,Linda,Rodriguez,linda.rodriguez355@example.com,Female,San Diego,CA,USA,2025-09-13,VIP
+CUST-00356,James,Johnson,james.johnson356@example.com,Female,San Antonio,TX,USA,2025-09-16,Corporate
+CUST-00357,Patricia,Martinez,patricia.martinez357@example.com,Male,Philadelphia,PA,USA,2025-01-25,Home Office
+CUST-00358,Linda,Martinez,linda.martinez358@example.com,Female,London,ENG,UK,2025-12-11,Home Office
+CUST-00359,William,Smith,william.smith359@example.com,Male,Los Angeles,CA,USA,2025-08-09,Home Office
+CUST-00360,Barbara,Garcia,barbara.garcia360@example.com,Male,San Antonio,TX,USA,2025-07-07,VIP
+CUST-00361,James,Martinez,james.martinez361@example.com,Female,Dallas,TX,USA,2025-04-10,Home Office
+CUST-00362,Mary,Miller,mary.miller362@example.com,Female,Dallas,TX,USA,2025-08-19,Consumer
+CUST-00363,John,Johnson,john.johnson363@example.com,Female,San Antonio,TX,USA,2025-07-11,Home Office
+CUST-00364,John,Brown,john.brown364@example.com,Female,San Jose,CA,USA,2025-09-18,Consumer
+CUST-00365,James,Smith,james.smith365@example.com,Female,Chicago,IL,USA,2026-01-01,VIP
+CUST-00366,William,Davis,william.davis366@example.com,Male,Chicago,IL,USA,2025-11-07,Home Office
+CUST-00367,Elizabeth,Garcia,elizabeth.garcia367@example.com,Female,Chicago,IL,USA,2025-07-21,Home Office
+CUST-00368,William,Rodriguez,william.rodriguez368@example.com,Female,Dallas,TX,USA,2025-09-08,VIP
+CUST-00369,James,Garcia,james.garcia369@example.com,Male,Philadelphia,PA,USA,2025-12-11,VIP
+CUST-00370,Elizabeth,Jones,elizabeth.jones370@example.com,Male,Toronto,ON,Canada,2025-12-19,VIP
+CUST-00371,Robert,Hernandez,robert.hernandez371@example.com,Male,San Jose,CA,USA,2025-10-23,Consumer
+CUST-00372,Elizabeth,Davis,elizabeth.davis372@example.com,Female,Chicago,IL,USA,2025-09-26,Corporate
+CUST-00373,David,Brown,david.brown373@example.com,Male,New York,NY,USA,2025-10-21,Corporate
+CUST-00374,James,Davis,james.davis374@example.com,Male,Philadelphia,PA,USA,2025-08-03,VIP
+CUST-00375,Barbara,Brown,barbara.brown375@example.com,Female,San Antonio,TX,USA,2025-09-14,Consumer
+CUST-00376,Barbara,Williams,barbara.williams376@example.com,Female,Dallas,TX,USA,2025-04-17,VIP
+CUST-00377,William,Miller,william.miller377@example.com,Female,Philadelphia,PA,USA,2025-03-30,Home Office
+CUST-00378,William,Garcia,william.garcia378@example.com,Female,London,ENG,UK,2025-12-15,VIP
+CUST-00379,Patricia,Brown,patricia.brown379@example.com,Female,Phoenix,AZ,USA,2025-10-13,Corporate
+CUST-00380,Robert,Jones,robert.jones380@example.com,Female,Toronto,ON,Canada,2025-04-17,Home Office
+CUST-00381,Linda,Garcia,linda.garcia381@example.com,Female,Dallas,TX,USA,2025-05-21,Consumer
+CUST-00382,Elizabeth,Hernandez,elizabeth.hernandez382@example.com,Female,Dallas,TX,USA,2025-07-14,Home Office
+CUST-00383,John,Jones,john.jones383@example.com,Male,New York,NY,USA,2025-05-28,Home Office
+CUST-00384,Linda,Hernandez,linda.hernandez384@example.com,Male,Phoenix,AZ,USA,2025-09-03,Corporate
+CUST-00385,William,Jones,william.jones385@example.com,Female,Dallas,TX,USA,2025-12-23,Corporate
+CUST-00386,Mary,Martinez,mary.martinez386@example.com,Male,Toronto,ON,Canada,2025-10-28,Corporate
+CUST-00387,James,Hernandez,james.hernandez387@example.com,Male,Dallas,TX,USA,2025-04-26,Consumer
+CUST-00388,Mary,Miller,mary.miller388@example.com,Male,Philadelphia,PA,USA,2025-08-30,Corporate
+CUST-00389,James,Rodriguez,james.rodriguez389@example.com,Female,Chicago,IL,USA,2025-07-28,VIP
+CUST-00390,David,Brown,david.brown390@example.com,Female,Phoenix,AZ,USA,2025-06-14,Consumer
+CUST-00391,Mary,Hernandez,mary.hernandez391@example.com,Male,San Jose,CA,USA,2025-04-29,Corporate
+CUST-00392,Michael,Williams,michael.williams392@example.com,Female,New York,NY,USA,2025-07-23,Corporate
+CUST-00393,Barbara,Jones,barbara.jones393@example.com,Female,New York,NY,USA,2025-01-05,Consumer
+CUST-00394,Jennifer,Jones,jennifer.jones394@example.com,Female,San Diego,CA,USA,2025-11-25,Corporate
+CUST-00395,William,Davis,william.davis395@example.com,Male,Phoenix,AZ,USA,2025-04-09,Home Office
+CUST-00396,John,Lopez,john.lopez396@example.com,Female,San Diego,CA,USA,2025-11-28,Corporate
+CUST-00397,James,Lopez,james.lopez397@example.com,Male,Philadelphia,PA,USA,2025-06-01,Corporate
+CUST-00398,Elizabeth,Hernandez,elizabeth.hernandez398@example.com,Female,San Antonio,TX,USA,2025-08-07,Consumer
+CUST-00399,Michael,Hernandez,michael.hernandez399@example.com,Male,Los Angeles,CA,USA,2025-04-05,VIP
+CUST-00400,Jennifer,Brown,jennifer.brown400@example.com,Female,New York,NY,USA,2025-05-14,Corporate
+CUST-00401,Linda,Jones,linda.jones401@example.com,Male,Philadelphia,PA,USA,2025-06-04,Home Office
+CUST-00402,David,Garcia,david.garcia402@example.com,Male,Toronto,ON,Canada,2025-05-01,Consumer
+CUST-00403,Linda,Jones,linda.jones403@example.com,Female,Chicago,IL,USA,2025-07-27,Consumer
+CUST-00404,David,Jones,david.jones404@example.com,Male,Philadelphia,PA,USA,2025-11-11,Corporate
+CUST-00405,John,Davis,john.davis405@example.com,Female,Chicago,IL,USA,2025-08-21,VIP
+CUST-00406,Barbara,Rodriguez,barbara.rodriguez406@example.com,Male,San Diego,CA,USA,2025-10-03,Corporate
+CUST-00407,David,Martinez,david.martinez407@example.com,Female,Los Angeles,CA,USA,2025-09-27,Home Office
+CUST-00408,Mary,Martinez,mary.martinez408@example.com,Male,Los Angeles,CA,USA,2025-02-01,Corporate
+CUST-00409,John,Garcia,john.garcia409@example.com,Male,Dallas,TX,USA,2025-08-15,Corporate
+CUST-00410,Barbara,Martinez,barbara.martinez410@example.com,Female,San Diego,CA,USA,2025-02-16,Consumer
+CUST-00411,Linda,Williams,linda.williams411@example.com,Female,Dallas,TX,USA,2025-08-01,Consumer
+CUST-00412,William,Davis,william.davis412@example.com,Male,London,ENG,UK,2025-06-07,VIP
+CUST-00413,Robert,Smith,robert.smith413@example.com,Male,Toronto,ON,Canada,2025-04-22,Consumer
+CUST-00414,Michael,Garcia,michael.garcia414@example.com,Male,Toronto,ON,Canada,2025-02-02,Consumer
+CUST-00415,Linda,Smith,linda.smith415@example.com,Male,Phoenix,AZ,USA,2025-07-29,Corporate
+CUST-00416,David,Lopez,david.lopez416@example.com,Female,London,ENG,UK,2025-08-04,VIP
+CUST-00417,Linda,Miller,linda.miller417@example.com,Male,San Antonio,TX,USA,2025-02-11,Home Office
+CUST-00418,Mary,Williams,mary.williams418@example.com,Male,Dallas,TX,USA,2025-07-21,Corporate
+CUST-00419,James,Smith,james.smith419@example.com,Female,Phoenix,AZ,USA,2025-08-26,VIP
+CUST-00420,Patricia,Brown,patricia.brown420@example.com,Male,San Diego,CA,USA,2025-06-27,Home Office
+CUST-00421,Patricia,Lopez,patricia.lopez421@example.com,Female,Los Angeles,CA,USA,2025-01-17,Consumer
+CUST-00422,Patricia,Brown,patricia.brown422@example.com,Male,Los Angeles,CA,USA,2025-02-21,VIP
+CUST-00423,Elizabeth,Hernandez,elizabeth.hernandez423@example.com,Male,Toronto,ON,Canada,2025-01-25,Consumer
+CUST-00424,Michael,Davis,michael.davis424@example.com,Male,Houston,TX,USA,2025-10-04,Consumer
+CUST-00425,John,Rodriguez,john.rodriguez425@example.com,Female,Phoenix,AZ,USA,2025-04-30,Home Office
+CUST-00426,Patricia,Jones,patricia.jones426@example.com,Male,Chicago,IL,USA,2025-12-05,VIP
+CUST-00427,Robert,Jones,robert.jones427@example.com,Male,New York,NY,USA,2025-10-13,VIP
+CUST-00428,William,Davis,william.davis428@example.com,Female,New York,NY,USA,2025-06-26,Home Office
+CUST-00429,Barbara,Miller,barbara.miller429@example.com,Female,San Antonio,TX,USA,2025-03-18,VIP
+CUST-00430,John,Rodriguez,john.rodriguez430@example.com,Male,San Diego,CA,USA,2025-05-04,Home Office
+CUST-00431,Barbara,Williams,barbara.williams431@example.com,Female,San Diego,CA,USA,2025-01-30,VIP
+CUST-00432,William,Rodriguez,william.rodriguez432@example.com,Male,Chicago,IL,USA,2025-07-18,Home Office
+CUST-00433,Patricia,Garcia,patricia.garcia433@example.com,Female,London,ENG,UK,2025-02-10,Home Office
+CUST-00434,Mary,Rodriguez,mary.rodriguez434@example.com,Male,Toronto,ON,Canada,2025-04-08,Home Office
+CUST-00435,Michael,Hernandez,michael.hernandez435@example.com,Male,San Jose,CA,USA,2025-11-05,Consumer
+CUST-00436,Patricia,Martinez,patricia.martinez436@example.com,Male,Toronto,ON,Canada,2025-12-10,VIP
+CUST-00437,Patricia,Garcia,patricia.garcia437@example.com,Male,Phoenix,AZ,USA,2025-01-08,Corporate
+CUST-00438,Barbara,Johnson,barbara.johnson438@example.com,Male,Toronto,ON,Canada,2025-09-03,Corporate
+CUST-00439,Michael,Brown,michael.brown439@example.com,Female,Dallas,TX,USA,2025-06-14,VIP
+CUST-00440,Linda,Rodriguez,linda.rodriguez440@example.com,Female,London,ENG,UK,2025-07-03,Home Office
+CUST-00441,Jennifer,Rodriguez,jennifer.rodriguez441@example.com,Male,San Diego,CA,USA,2025-08-27,VIP
+CUST-00442,Jennifer,Brown,jennifer.brown442@example.com,Female,Philadelphia,PA,USA,2025-06-10,Consumer
+CUST-00443,Elizabeth,Brown,elizabeth.brown443@example.com,Male,Toronto,ON,Canada,2025-03-16,Home Office
+CUST-00444,William,Martinez,william.martinez444@example.com,Female,San Jose,CA,USA,2025-08-02,Corporate
+CUST-00445,Patricia,Garcia,patricia.garcia445@example.com,Male,Houston,TX,USA,2025-07-14,VIP
+CUST-00446,William,Hernandez,william.hernandez446@example.com,Female,London,ENG,UK,2025-06-22,VIP
+CUST-00447,Barbara,Hernandez,barbara.hernandez447@example.com,Female,Toronto,ON,Canada,2025-09-09,Corporate
+CUST-00448,Barbara,Garcia,barbara.garcia448@example.com,Female,Chicago,IL,USA,2025-03-13,Corporate
+CUST-00449,William,Hernandez,william.hernandez449@example.com,Male,New York,NY,USA,2025-09-26,Consumer
+CUST-00450,David,Smith,david.smith450@example.com,Male,New York,NY,USA,2025-07-31,Corporate
+CUST-00451,Mary,Lopez,mary.lopez451@example.com,Male,Chicago,IL,USA,2025-01-05,VIP
+CUST-00452,Jennifer,Smith,jennifer.smith452@example.com,Female,San Jose,CA,USA,2025-11-23,VIP
+CUST-00453,James,Smith,james.smith453@example.com,Female,Dallas,TX,USA,2025-10-10,Consumer
+CUST-00454,James,Rodriguez,james.rodriguez454@example.com,Female,Toronto,ON,Canada,2025-05-21,Consumer
+CUST-00455,William,Lopez,william.lopez455@example.com,Male,London,ENG,UK,2025-08-09,Consumer
+CUST-00456,Mary,Rodriguez,mary.rodriguez456@example.com,Male,Chicago,IL,USA,2025-05-04,Home Office
+CUST-00457,Jennifer,Jones,jennifer.jones457@example.com,Female,San Antonio,TX,USA,2025-02-10,VIP
+CUST-00458,Linda,Martinez,linda.martinez458@example.com,Male,Houston,TX,USA,2025-12-23,Home Office
+CUST-00459,David,Johnson,david.johnson459@example.com,Male,London,ENG,UK,2025-11-29,Consumer
+CUST-00460,Michael,Miller,michael.miller460@example.com,Female,San Antonio,TX,USA,2025-10-10,Consumer
+CUST-00461,David,Smith,david.smith461@example.com,Male,Toronto,ON,Canada,2025-03-29,VIP
+CUST-00462,Michael,Hernandez,michael.hernandez462@example.com,Male,Philadelphia,PA,USA,2025-10-17,Consumer
+CUST-00463,Patricia,Brown,patricia.brown463@example.com,Female,Toronto,ON,Canada,2025-10-18,Home Office
+CUST-00464,James,Johnson,james.johnson464@example.com,Male,London,ENG,UK,2025-05-24,Corporate
+CUST-00465,Jennifer,Smith,jennifer.smith465@example.com,Male,Houston,TX,USA,2025-10-28,VIP
+CUST-00466,Mary,Jones,mary.jones466@example.com,Male,Chicago,IL,USA,2025-10-16,VIP
+CUST-00467,David,Rodriguez,david.rodriguez467@example.com,Male,Philadelphia,PA,USA,2025-07-16,Consumer
+CUST-00468,William,Lopez,william.lopez468@example.com,Male,Philadelphia,PA,USA,2025-01-28,VIP
+CUST-00469,Patricia,Johnson,patricia.johnson469@example.com,Female,Philadelphia,PA,USA,2025-11-06,Home Office
+CUST-00470,James,Hernandez,james.hernandez470@example.com,Female,Phoenix,AZ,USA,2025-08-19,Corporate
+CUST-00471,Jennifer,Rodriguez,jennifer.rodriguez471@example.com,Male,San Antonio,TX,USA,2025-08-10,VIP
+CUST-00472,Mary,Martinez,mary.martinez472@example.com,Male,Phoenix,AZ,USA,2025-05-07,Consumer
+CUST-00473,Robert,Williams,robert.williams473@example.com,Male,San Antonio,TX,USA,2025-12-31,VIP
+CUST-00474,Jennifer,Garcia,jennifer.garcia474@example.com,Male,Los Angeles,CA,USA,2025-02-16,Home Office
+CUST-00475,Linda,Garcia,linda.garcia475@example.com,Male,Phoenix,AZ,USA,2025-02-22,Consumer
+CUST-00476,John,Miller,john.miller476@example.com,Female,San Diego,CA,USA,2025-10-13,Consumer
+CUST-00477,James,Johnson,james.johnson477@example.com,Male,Philadelphia,PA,USA,2025-10-11,Home Office
+CUST-00478,Michael,Smith,michael.smith478@example.com,Female,Phoenix,AZ,USA,2025-07-31,Consumer
+CUST-00479,Barbara,Rodriguez,barbara.rodriguez479@example.com,Male,Houston,TX,USA,2025-10-20,VIP
+CUST-00480,John,Williams,john.williams480@example.com,Female,Phoenix,AZ,USA,2025-06-04,VIP
+CUST-00481,John,Johnson,john.johnson481@example.com,Female,Chicago,IL,USA,2025-08-11,VIP
+CUST-00482,Robert,Davis,robert.davis482@example.com,Female,Los Angeles,CA,USA,2025-07-04,Corporate
+CUST-00483,Barbara,Hernandez,barbara.hernandez483@example.com,Male,San Diego,CA,USA,2025-11-01,VIP
+CUST-00484,Mary,Williams,mary.williams484@example.com,Female,Phoenix,AZ,USA,2025-01-04,Home Office
+CUST-00485,Elizabeth,Miller,elizabeth.miller485@example.com,Female,Philadelphia,PA,USA,2025-08-14,VIP
+CUST-00486,David,Martinez,david.martinez486@example.com,Female,Chicago,IL,USA,2025-06-03,Corporate
+CUST-00487,Linda,Garcia,linda.garcia487@example.com,Female,Chicago,IL,USA,2025-07-23,Home Office
+CUST-00488,Barbara,Lopez,barbara.lopez488@example.com,Male,London,ENG,UK,2025-09-09,Home Office
+CUST-00489,Michael,Jones,michael.jones489@example.com,Male,San Antonio,TX,USA,2025-07-06,Corporate
+CUST-00490,Elizabeth,Rodriguez,elizabeth.rodriguez490@example.com,Male,Chicago,IL,USA,2025-12-16,VIP
+CUST-00491,Barbara,Brown,barbara.brown491@example.com,Male,San Diego,CA,USA,2025-05-30,VIP
+CUST-00492,David,Davis,david.davis492@example.com,Female,Chicago,IL,USA,2025-11-21,Corporate
+CUST-00493,Robert,Hernandez,robert.hernandez493@example.com,Female,Chicago,IL,USA,2025-08-05,Consumer
+CUST-00494,Linda,Martinez,linda.martinez494@example.com,Female,San Diego,CA,USA,2025-10-26,VIP
+CUST-00495,William,Smith,william.smith495@example.com,Male,Philadelphia,PA,USA,2025-12-26,Consumer
+CUST-00496,Patricia,Hernandez,patricia.hernandez496@example.com,Male,London,ENG,UK,2025-07-01,Consumer
+CUST-00497,Elizabeth,Hernandez,elizabeth.hernandez497@example.com,Female,London,ENG,UK,2025-11-28,Home Office
+CUST-00498,Michael,Johnson,michael.johnson498@example.com,Female,New York,NY,USA,2025-02-20,Corporate
+CUST-00499,William,Lopez,william.lopez499@example.com,Male,Dallas,TX,USA,2025-10-13,VIP
+CUST-00500,Jennifer,Miller,jennifer.miller500@example.com,Male,San Diego,CA,USA,2025-12-14,Home Office

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Lakehouse Analytics Platform | Microsoft Fabric Architecture</title>
+    <link rel="stylesheet" href="styles.css?v=3.0.0">
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Chart.js for Visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="logo-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <div class="brand-text">
+                    <h2>Fabric Analytics</h2>
+                    <span>Lakehouse Platform</span>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <button class="nav-btn active" data-tab="dashboard">
+                    <i class="fa-solid fa-chart-line"></i> Executive Dashboard
+                </button>
+                <button class="nav-btn" data-tab="pipeline">
+                    <i class="fa-solid fa-diagram-project"></i> Pipeline Operations
+                </button>
+                <button class="nav-btn" data-tab="quality">
+                    <i class="fa-solid fa-shield-halved"></i> Data Governance
+                </button>
+                <button class="nav-btn" data-tab="sql">
+                    <i class="fa-solid fa-terminal"></i> SQL Analytics Studio
+                </button>
+                <button class="nav-btn" data-tab="explorer">
+                    <i class="fa-solid fa-database"></i> Lakehouse Explorer
+                </button>
+            </nav>
+            
+            <div class="system-status">
+                <div class="status-indicator online" id="global-status-dot"></div>
+                <div class="status-info">
+                    <span class="status-title" id="global-status-title">OneLake Active</span>
+                    <span class="status-sub" id="global-status-sub">Fabric Engine Connected</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header Bar -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h1 id="page-title">Executive Analytics Dashboard</h1>
+                    <p id="page-subtitle">Real-time e-commerce operational intelligence & medallion analytics</p>
+                </div>
+                <div class="header-actions">
+                    <button id="trigger-pipeline-header-btn" class="btn btn-primary">
+                        <i class="fa-solid fa-bolt"></i> Run Medallion Pipeline
+                    </button>
+                    <button id="refresh-all-btn" class="btn btn-secondary">
+                        <i class="fa-solid fa-rotate-right"></i> Refresh Data
+                    </button>
+                </div>
+            </header>
+
+            <!-- Tab Content: Dashboard -->
+            <section id="tab-dashboard" class="tab-content active">
+                <!-- Metric Cards Grid -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Total Revenue</span>
+                            <div class="kpi-icon revenue"><i class="fa-solid fa-dollar-sign"></i></div>
+                        </div>
+                        <div class="kpi-value" id="kpi-revenue">$0.00</div>
+                        <div class="kpi-footer positive">
+                            <i class="fa-solid fa-arrow-trend-up"></i> Gross sales across completed orders
+                        </div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Total Orders</span>
+                            <div class="kpi-icon orders"><i class="fa-solid fa-cart-shopping"></i></div>
+                        </div>
+                        <div class="kpi-value" id="kpi-orders">0</div>
+                        <div class="kpi-footer neutral">
+                            <i class="fa-solid fa-bag-shopping"></i> Unique processed order IDs
+                        </div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Average Order Value</span>
+                            <div class="kpi-icon aov"><i class="fa-solid fa-receipt"></i></div>
+                        </div>
+                        <div class="kpi-value" id="kpi-aov">$0.00</div>
+                        <div class="kpi-footer positive">
+                            <i class="fa-solid fa-chart-simple"></i> Revenue per order
+                        </div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Net Profit</span>
+                            <div class="kpi-icon profit"><i class="fa-solid fa-piggy-bank"></i></div>
+                        </div>
+                        <div class="kpi-value" id="kpi-profit">$0.00</div>
+                        <div class="kpi-footer positive" id="kpi-margin-badge">
+                            <i class="fa-solid fa-percent"></i> <span id="kpi-margin">0%</span> profit margin
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="charts-grid">
+                    <div class="chart-card wide">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-chart-area"></i> Revenue & Profit Velocity</h3>
+                            <span class="card-tag">Monthly Trend</span>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="revenueTrendChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-chart-pie"></i> Category Revenue Split</h3>
+                            <span class="card-tag">By Department</span>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="categoryChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-users"></i> Customer Segments</h3>
+                            <span class="card-tag">Spend Share</span>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="segmentChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab Content: Pipeline Operations -->
+            <section id="tab-pipeline" class="tab-content">
+                <div class="pipeline-header">
+                    <h2>Fabric Data Factory Orchestration Engine</h2>
+                    <p>Medallion lakehouse transformation lifecycle (Bronze &rarr; Silver &rarr; Gold)</p>
+                    <button class="btn btn-primary margin-top-sm" id="trigger-pipeline-master-btn">
+                        <i class="fa-solid fa-bolt"></i> Execute Full Pipeline (Bronze &rarr; Silver &rarr; Gold)
+                    </button>
+                </div>
+
+                <div class="medallion-pipeline-grid">
+                    <!-- Bronze Layer Card -->
+                    <div class="layer-card bronze">
+                        <span class="layer-badge" id="badge-bronze">RAW LANDING</span>
+                        <h3><i class="fa-solid fa-cubes"></i> Bronze Lakehouse</h3>
+                        <p>Preserves original source fidelity with operational lineage (`ingestion_timestamp`, `batch_id`, `pipeline_run_id`).</p>
+                        
+                        <div class="layer-stats" id="stats-bronze">
+                            <i class="fa-solid fa-database"></i> <span id="count-bronze">100 raw records landed</span>
+                        </div>
+
+                        <ul class="table-list">
+                            <li><a href="#" onclick="openExplorerTable('bronze_customers')"><i class="fa-regular fa-file"></i> raw_customers (CSV)</a></li>
+                            <li><a href="#" onclick="openExplorerTable('bronze_products')"><i class="fa-regular fa-file"></i> raw_products (JSON)</a></li>
+                            <li><a href="#" onclick="openExplorerTable('bronze_orders')"><i class="fa-regular fa-file"></i> raw_orders (CSV)</a></li>
+                        </ul>
+                        <button class="btn btn-outline" id="run-bronze-btn">
+                            <i class="fa-solid fa-play"></i> Ingest Bronze
+                        </button>
+                    </div>
+
+                    <div class="arrow-divider"><i class="fa-solid fa-angle-right"></i></div>
+
+                    <!-- Silver Layer Card -->
+                    <div class="layer-card silver">
+                        <span class="layer-badge" id="badge-silver">CLEANSED & INTEGRATED</span>
+                        <h3><i class="fa-solid fa-gem"></i> Silver Lakehouse</h3>
+                        <p>Cleansed Delta tables with strict schema validation, type casting, deduplication, and zero-duplication joins.</p>
+
+                        <div class="layer-stats" id="stats-silver">
+                            <i class="fa-solid fa-table"></i> <span id="count-silver">544 cleansed sales</span>
+                        </div>
+
+                        <ul class="table-list">
+                            <li><a href="#" onclick="openExplorerTable('silver_customers')"><i class="fa-solid fa-table"></i> silver_customers</a></li>
+                            <li><a href="#" onclick="openExplorerTable('silver_products')"><i class="fa-solid fa-table"></i> silver_products</a></li>
+                            <li><a href="#" onclick="openExplorerTable('silver_sales')"><i class="fa-solid fa-table"></i> silver_sales (Integrated)</a></li>
+                        </ul>
+                        <button class="btn btn-outline" id="run-silver-btn">
+                            <i class="fa-solid fa-play"></i> Transform Silver
+                        </button>
+                    </div>
+
+                    <div class="arrow-divider"><i class="fa-solid fa-angle-right"></i></div>
+
+                    <!-- Gold Layer Card -->
+                    <div class="layer-card gold">
+                        <span class="layer-badge" id="badge-gold">STAR SCHEMA</span>
+                        <h3><i class="fa-solid fa-crown"></i> Gold Lakehouse</h3>
+                        <p>Business-ready analytical structures with SCD Type 2 customer history, fact tables, and Direct Lake semantic model.</p>
+
+                        <div class="layer-stats" id="stats-gold">
+                            <i class="fa-solid fa-crown"></i> <span id="count-gold">544 Fact & SCD2 Dims</span>
+                        </div>
+
+                        <ul class="table-list">
+                            <li><a href="#" onclick="openExplorerTable('fact_sales')"><i class="fa-solid fa-star"></i> fact_sales & fact_returns</a></li>
+                            <li><a href="#" onclick="openExplorerTable('dim_customer')"><i class="fa-solid fa-id-card"></i> dim_customer (SCD Type 2)</a></li>
+                            <li><a href="#" onclick="openExplorerTable('dim_product')"><i class="fa-solid fa-calendar"></i> dim_date & dim_product</a></li>
+                        </ul>
+                        <button class="btn btn-outline" id="run-gold-btn">
+                            <i class="fa-solid fa-play"></i> Model Gold
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Execution Terminal Window -->
+                <div class="terminal-card">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="terminal-title">Fabric Data Factory Pipeline Execution Telemetry</span>
+                    </div>
+                    <div class="terminal-body" id="terminal-logs">
+                        <div class="log-line">[SYSTEM] Ready to trigger pipeline activities...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab Content: Data Quality & Governance -->
+            <section id="tab-quality" class="tab-content">
+                <div class="card-header border-bottom">
+                    <h2><i class="fa-solid fa-shield-halved"></i> Automated Data Quality Governance Framework Portal</h2>
+                    <span class="card-tag">Microsoft Fabric Governance Engine</span>
+                </div>
+
+                <!-- Governance Summary KPI Grid -->
+                <div class="kpi-grid margin-top">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Overall Quality Score</span>
+                            <div class="kpi-icon profit"><i class="fa-solid fa-square-check"></i></div>
+                        </div>
+                        <div class="kpi-value" id="dq-kpi-score">100.0%</div>
+                        <div class="kpi-footer positive">
+                            <i class="fa-solid fa-shield-cat"></i> All evaluated rules passing
+                        </div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Critical Rules Passed</span>
+                            <div class="kpi-icon revenue"><i class="fa-solid fa-lock"></i></div>
+                        </div>
+                        <div class="kpi-value" id="dq-kpi-critical">6 / 6</div>
+                        <div class="kpi-footer positive">
+                            <i class="fa-solid fa-check"></i> Primary keys & FK integrity
+                        </div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Active Governance Checks</span>
+                            <div class="kpi-icon orders"><i class="fa-solid fa-list-check"></i></div>
+                        </div>
+                        <div class="kpi-value" id="dq-kpi-total-checks">12 Rules</div>
+                        <div class="kpi-footer neutral">
+                            <i class="fa-solid fa-cubes-stacked"></i> Bronze &rarr; Silver &rarr; Gold Audit
+                        </div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Quarantined Anomalies</span>
+                            <div class="kpi-icon aov"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                        </div>
+                        <div class="kpi-value" id="dq-kpi-anomalies">0 Records</div>
+                        <div class="kpi-footer positive">
+                            <i class="fa-solid fa-circle-check"></i> Zero dirty records isolated
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Governance Controls & Category Filters -->
+                <div class="governance-controls margin-top">
+                    <div class="governance-tab-switcher">
+                        <button class="gov-subtab-btn active" id="gov-subtab-audit" onclick="switchGovSubtab('audit')">
+                            <i class="fa-solid fa-clipboard-check"></i> Audit Results Trail
+                        </button>
+                        <button class="gov-subtab-btn" id="gov-subtab-catalog" onclick="switchGovSubtab('catalog')">
+                            <i class="fa-solid fa-book-bookmark"></i> Data Catalog & PII Governance
+                        </button>
+                    </div>
+
+                    <div class="category-pills-container" id="category-pills">
+                        <span class="category-pill active" onclick="filterDqCategory('ALL')">ALL</span>
+                        <span class="category-pill" onclick="filterDqCategory('COMPLETENESS')">COMPLETENESS</span>
+                        <span class="category-pill" onclick="filterDqCategory('UNIQUENESS')">UNIQUENESS</span>
+                        <span class="category-pill" onclick="filterDqCategory('INTEGRITY')">INTEGRITY</span>
+                        <span class="category-pill" onclick="filterDqCategory('VALIDITY')">VALIDITY</span>
+                        <span class="category-pill" onclick="filterDqCategory('ACCURACY')">ACCURACY</span>
+                    </div>
+                </div>
+
+                <!-- View 1: Data Quality Audit Table -->
+                <div id="gov-view-audit" class="margin-top">
+                    <div class="table-responsive">
+                        <table class="data-table" id="quality-table">
+                            <thead>
+                                <tr>
+                                    <th>Table Name</th>
+                                    <th>Check Description</th>
+                                    <th>Category</th>
+                                    <th>Severity</th>
+                                    <th>Evaluated Records</th>
+                                    <th>Failed Records</th>
+                                    <th>Success Ratio</th>
+                                    <th>Audit Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="quality-table-body">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- View 2: Data Catalog & PII Governance Table -->
+                <div id="gov-view-catalog" class="margin-top" style="display: none;">
+                    <div class="table-responsive">
+                        <table class="data-table" id="catalog-table">
+                            <thead>
+                                <tr>
+                                    <th>Table Name</th>
+                                    <th>Layer</th>
+                                    <th>Column Name</th>
+                                    <th>Data Type</th>
+                                    <th>PII Classification</th>
+                                    <th>Applied Quality Rules</th>
+                                    <th>Retention (Days)</th>
+                                    <th>Data Owner</th>
+                                </tr>
+                            </thead>
+                            <tbody id="catalog-table-body">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab Content: SQL Analytics Studio -->
+            <section id="tab-sql" class="tab-content">
+                <div class="sql-studio-grid">
+                    <div class="sql-editor-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-code"></i> Fabric SQL Analytics Endpoint Query Editor</h3>
+                            <div class="preset-dropdown">
+                                <select id="sql-preset-select">
+                                    <option value="01">Preset: Financial & Monthly Revenue Velocity</option>
+                                    <option value="02">Preset: Top Products by Gross Revenue</option>
+                                    <option value="03">Preset: High-Value Customer Leaderboard</option>
+                                    <option value="04">Preset: Category Return Rates</option>
+                                </select>
+                            </div>
+                        </div>
+                        <textarea id="sql-editor" rows="7" class="code-editor"></textarea>
+                        <div class="sql-editor-footer">
+                            <button id="run-sql-btn" class="btn btn-primary">
+                                <i class="fa-solid fa-play"></i> Execute Query (T-SQL)
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="sql-results-card">
+                        <div class="card-header">
+                            <h3><i class="fa-solid fa-table-cells"></i> Query Execution Output</h3>
+                            <span class="card-tag" id="sql-row-count">0 rows</span>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="data-table" id="sql-results-table">
+                                <thead id="sql-results-head"></thead>
+                                <tbody id="sql-results-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab Content: Lakehouse Explorer -->
+            <section id="tab-explorer" class="tab-content">
+                <div class="explorer-toolbar">
+                    <div class="select-group">
+                        <label for="table-select"><i class="fa-solid fa-database"></i> Select Lakehouse Table:</label>
+                        <select id="table-select" class="custom-select">
+                            <option value="silver_sales">silver_sales (Silver Integrated Sales)</option>
+                            <option value="silver_customers">silver_customers (Cleansed Customers)</option>
+                            <option value="silver_products">silver_products (Cleansed Products)</option>
+                            <option value="silver_orders">silver_orders (Cleansed Orders)</option>
+                            <option value="fact_sales">fact_sales (Gold Fact Table)</option>
+                            <option value="fact_returns">fact_returns (Gold Returns Fact)</option>
+                            <option value="dim_customer">dim_customer (Gold SCD Type 2 Dimension)</option>
+                            <option value="dim_product">dim_product (Gold Product Dimension)</option>
+                            <option value="dim_date">dim_date (Gold Date Dimension)</option>
+                            <option value="bronze_customers">bronze_customers (Raw Bronze)</option>
+                        </select>
+                    </div>
+                    <span class="card-tag" id="explorer-row-count">Showing preview records</span>
+                </div>
+
+                <div class="table-responsive margin-top">
+                    <table class="data-table" id="explorer-table">
+                        <thead id="explorer-head"></thead>
+                        <tbody id="explorer-body"></tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js?v=3.0.0"></script>
+</body>
+</html>

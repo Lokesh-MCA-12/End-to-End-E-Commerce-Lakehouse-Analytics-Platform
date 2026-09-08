@@ -1,0 +1,29 @@
+// Explicit DAX Measures for E-Commerce Lakehouse Analytics
+// Connection Mode: Direct Lake on OneLake (Microsoft Fabric)
+
+// --- Financial & Sales Performance ---
+Total Revenue = SUM(FactSales[sales_amount])
+
+Total Cost = SUM(FactSales[cost_amount])
+
+Total Profit = SUM(FactSales[profit_amount])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Revenue], 0)
+
+Total Orders = DISTINCTCOUNT(FactSales[order_id])
+
+Average Order Value (AOV) = DIVIDE([Total Revenue], [Total Orders], 0)
+
+Total Units Sold = SUM(FactSales[quantity])
+
+// --- Customer Metrics ---
+Total Active Customers = DISTINCTCOUNT(FactSales[customer_key])
+
+Average Spend Per Customer = DIVIDE([Total Revenue], [Total Active Customers], 0)
+
+// --- Operations & Returns Metrics ---
+Total Refund Amount = SUM(FactReturns[refund_amount])
+
+Total Returned Orders = DISTINCTCOUNT(FactReturns[order_id])
+
+Return Rate % = DIVIDE([Total Returned Orders], [Total Orders], 0)

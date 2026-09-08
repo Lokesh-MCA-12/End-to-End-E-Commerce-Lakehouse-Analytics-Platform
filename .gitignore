@@ -1,0 +1,20 @@
+# Python / PySpark
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Databases & Local Pipelines
+*.db
+*.duckdb
+*.sqlite3
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & Temp
+*.log
+tmp/
